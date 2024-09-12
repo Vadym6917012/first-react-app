@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <MyButton />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -32,4 +33,9 @@ function App() {
   )
 }
 
+function MyButton() {
+  return (
+    <button>I`m a button</button>
+  );
+ }
 export default App
